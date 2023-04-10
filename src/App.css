@@ -1,0 +1,115 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+margin:0;
+padding:0;
+font-family: 'Mulish', sans-serif;
+}
+.main{
+height: 85vh;
+}
+.navbar-brand{
+text-shadow: 1px 1px rgb(93, 111, 88);
+font-weight: 700;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-left: 10px;
+}
+.heading{
+margin-top: auto;
+margin-bottom: auto;
+}
+.head1{
+font-size:50px;
+font-weight: 700;
+}
+.head2{
+color: rgb(13, 134, 13);
+text-shadow: 2px 2px #438911;
+}
+.img1{
+display : grid;
+align-content: center;
+justify-content:center;
+margin-top: 25px;
+
+}
+.img1{
+animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.kbtn{
+margin-top:10px;
+width: max-content;
+padding: 4px;
+border-radius: 5px;
+background-color: white;
+border: 2px solid #438911;
+text-decoration: none;
+}
+.kbtn:hover{
+background-color:#438911 ;
+color: white;
+transition: 1s;
+}
+.card{
+box-shadow: 5px 0px 10px;
+margin-bottom: 5px;
+padding: 3px;
+}
+.card:hover{
+ transform: scale(1.05);
+}
+.types p {
+width:80%;
+margin: auto;
+}
+.contact_div{
+display: flex;
+margin:3% auto 0 auto;
+max-width:25%;
+}
+.sbtn{
+margin-top:10px;
+width: max-content;
+padding: 4px;
+border-radius: 5px;
+background-color: white;
+border: 2px solid #438911;
+text-decoration: none;
+}
+.sbtn:hover{
+background-color:#438911 ;
+color: white;
+transition: 1s;
+}
+.gov h1{ background-color:#438911;
+  text-align: center;
+color: white;
+padding: 2px;}
+.gov h3 { background-color:#438911;
+  text-align: center;
+margin-top: 4px;
+color: white;
+padding: 2px;
+}
+.gov p {
+margin-top:15px;
+line-height: 4cqmin;
+}
+.gov ul{line-height: 4cqmin;
+}
+@-webkit-keyframes up-down{
+0%{
+transform: translateY(15px);
+}
+100%{
+transform: translateY(-10px);
+}
+}
+@keyframes up-down{
+0%{
+transform: translateY(15px);
+}
+100%{
+transform: translateY(-10px);
+}
+}
