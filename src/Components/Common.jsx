@@ -1,10 +1,12 @@
 import React from 'react'
-import elect1 from '../images/bike.png';
 
 const Common = (props) => {
   return (
     <>
-      <section className=" main  container d-flex col-lg-10 col-12 col-sm-12">
+      <section className="main  container ">
+<div className='col-lg-12 col-12 col-sm-12'> 
+<div className='row'>
+<div className=' col-lg-6 col-md-6 col-12 col-sm-12'> 
         <div className="heading">
           <h1  className="head1 ">
             {props.title1}<br />
@@ -16,9 +18,14 @@ const Common = (props) => {
           </p>
             {props.btn}
         </div>
-        <div className="col-lg-6 col-12 col-sm-12 order-1 order-lg-2 img1">
+</div>
+        <div className="col-lg-6 col-12 col-sm-12 img1">
+        <div className='row'>
           <img src={props.img} className="mainImg img-fluid" alt="image" />
+</div>
         </div>
+</div>
+</div>
       </section>
     </>
   );

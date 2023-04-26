@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom';
 const Types = (props) => {
   return (
     <>
-      <div className="col-10 col-md-4 gx-5 card-div"  >
-        <div className="card m-2" style={{height:"26rem"}}>
+      <div className="col-10 col-lg-4 col-md-4 gx-5 card-div"  >
+        <div className="card m-2">
 <div className='card_img'>
          <NavLink to = {`../images ${props.img}`}><img src={props.img} className="card-img img-fluid" alt="img."style={{height:"9rem"}} />
 </NavLink>

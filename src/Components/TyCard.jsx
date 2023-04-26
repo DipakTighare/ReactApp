@@ -7,6 +7,7 @@ const CardTy = () => {
   return (
     <>
       <div className=" mt-2 container">
+<div className='col-12 col-md-4 col-lg-12 '></div>
         <h1 className="text-center font-weight-bold text-bg-success">How EVs Works?</h1>
         <div className="text-center types">
           <p className="mt-5 mb-3">

@@ -7,7 +7,7 @@ import Common from './Common';
 const About = () => {
   return (
 <>
-<section className="container">
+<section>
     <Common 
 title1="What is Electric Vehicle" 
         title2="EVs"

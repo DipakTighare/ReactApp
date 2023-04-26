@@ -6,7 +6,6 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import About from './Components/About';
 import Home from './Components/Home';
 import Contact from './Components/Contact';
-import Error from './Components/Error';
 import {BrowserRouter} from "react-router-dom"
 import Navbar from './Components/Navbar';
 import TyCard from './Components/TyCard';
@@ -28,7 +27,7 @@ function App() {
 <Route exact path="/benifits" element={<Benifits/>}/>
 
 
-          <Route exact path="*" element={<Error />} />
+          <Route exact path="*" element={<Home />} />
          
 </Routes>
     </BrowserRouter>

@@ -6,7 +6,8 @@ padding:0;
 font-family: 'Mulish', sans-serif;
 }
 .main{
-height: 85vh;
+margin-top:10%;
+max-height:min-content;
 }
 .navbar-brand{
 text-shadow: 1px 1px rgb(93, 111, 88);
@@ -14,10 +15,7 @@ font-weight: 700;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 margin-left: 10px;
 }
-.heading{
-margin-top: auto;
-margin-bottom: auto;
-}
+
 .head1{
 font-size:50px;
 font-weight: 700;
@@ -54,8 +52,17 @@ transition: 1s;
 box-shadow: 5px 0px 10px;
 margin-bottom: 5px;
 padding: 3px;
+min-height: 26rem;
+overflow:auto;
+}
+.card-1{box-shadow: 5px 0px 10px;
+padding: 1.2%;
+margin: 5px;
 }
 .card:hover{
+ transform: scale(1.05);
+}
+.card-1:hover{
  transform: scale(1.05);
 }
 .types p {
