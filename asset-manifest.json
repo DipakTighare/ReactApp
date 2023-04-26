@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ReactApp/static/css/main.4f627d2e.css",
+    "main.js": "/ReactApp/static/js/main.29650771.js",
+    "static/js/787.eac0f2c4.chunk.js": "/ReactApp/static/js/787.eac0f2c4.chunk.js",
+    "static/media/bike.png": "/ReactApp/static/media/bike.42ccf347988108291af3.png",
+    "static/media/electric-high.png": "/ReactApp/static/media/electric-high.f429b42c6ec56e737e56.png",
+    "static/media/plugin-high.png": "/ReactApp/static/media/plugin-high.4a50891060e2475ec10c.png",
+    "static/media/Eco.png": "/ReactApp/static/media/Eco.39e0f30ece005a0ccd96.png",
+    "static/media/greenpng.png": "/ReactApp/static/media/greenpng.1cdb22a93d65add36555.png",
+    "static/media/EvWorking.png": "/ReactApp/static/media/EvWorking.bc6c5a42da26fc704ffa.png",
+    "static/media/money.png": "/ReactApp/static/media/money.170c764716fe2dbb427d.png",
+    "static/media/charge.png": "/ReactApp/static/media/charge.8c19ad6ed0130cc9407f.png",
+    "static/media/easy (1).png": "/ReactApp/static/media/easy (1).16c55c50ad818cb3b218.png",
+    "static/media/Maintenance.png": "/ReactApp/static/media/Maintenance.1068243f12bb974ea8aa.png",
+    "index.html": "/ReactApp/index.html",
+    "main.4f627d2e.css.map": "/ReactApp/static/css/main.4f627d2e.css.map",
+    "main.29650771.js.map": "/ReactApp/static/js/main.29650771.js.map",
+    "787.eac0f2c4.chunk.js.map": "/ReactApp/static/js/787.eac0f2c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f627d2e.css",
+    "static/js/main.29650771.js"
+  ]
+}
